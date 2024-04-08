@@ -70,3 +70,22 @@ h2{
 .ingredientes > ul li::marker{
     color: hsl(14, 45%, 36%);
 }
+.preparacao > ol li{
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+.preparacao > ol{
+    padding-left: 16px;
+}
+.preparacao > ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.nutricao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.nutricao > p{
+    padding: 0px 200px 0px 0px;
+}
