@@ -83,9 +83,15 @@ h2{
 .nutricao{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: row;
 }
-.nutricao > p{
-    padding: 0px 200px 0px 0px;
+.nutricao > p > strong{
+    padding: 0px 180px 0px 0px;
+}
+
+@media screen and (max-width: 375px){
+    main{
+        width: 100%;
+    }
 }
