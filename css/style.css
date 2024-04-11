@@ -91,7 +91,72 @@ h2{
 }
 
 @media screen and (max-width: 375px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
     main{
         width: 100%;
+        padding: 0;
     }
+    img{
+        border-radius: 0px;
+    }
+    h1{
+        padding: 0px 18px 0px 18px;
+    }
+    p{
+        padding: 0px 18px 0px 18px;
+    }
+    .tempo-prep, .preparacao, .ingredientes{
+        padding: 0px 18px 0px 18px;
+    }
+    .nutricao{
+        display: flex;
+    }
+    .nutricao > p > strong{
+        padding: 0px 15px 0px 0px;
+    }
+    .nutricao{
+        margin-bottom: 20px;
+    }
+    #nutri{
+        padding: 0px 18px 0px 18px;
+    }
+
+}
+@media screen and (max-width: 875px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    main{
+        width: 100%;
+        padding: 0;
+    }
+    img{
+        border-radius: 0px;
+    }
+    h1{
+        padding: 0px 18px 0px 18px;
+    }
+    p{
+        padding: 0px 18px 0px 18px;
+    }
+    .tempo-prep, .preparacao, .ingredientes{
+        padding: 0px 18px 0px 18px;
+    }
+    .nutricao{
+        display: flex;
+    }
+    .nutricao > p > strong{
+        padding: 0px 15px 0px 0px;
+    }
+    .nutricao{
+        margin-bottom: 20px;
+    }
+    #nutri{
+        padding: 0px 18px 0px 18px;
+    }
+
 }
